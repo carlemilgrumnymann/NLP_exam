@@ -1,0 +1,4 @@
+# just the packages for class 8 for starters
+transformers
+dialz 
+
