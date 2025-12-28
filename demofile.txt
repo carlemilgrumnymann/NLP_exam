@@ -1243,4 +1243,4 @@ Look throught recent research on hominid species dating from the Middle Pliocene
 "I: increased species diversity but decreased numbers of hammerstones and flakes, indicating less stone tool manufacture.",
 "J: very little species diversity during this period and very few hominids."
 ]
- The output, baseline response: 
+ The output, baseline response: ## here is a snapshot
