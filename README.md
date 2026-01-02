@@ -24,14 +24,3 @@ bash setup.sh
 
 ##  🚀 Usage 
 The notebooks can be run in the virtual environment installed following the instructions above. Vectors can either be generated or imported from the data folder. 
-
-
-## 🌟 Acknowledgements - REMOVE
-If you want to thank a data provider or a package that you heavily relied on ;)
-
-(Not strictly necessary)
-
-## 💬 Contact - REMOVE
-This repository was created by .... 
-
-(Not strictly necessary section)
