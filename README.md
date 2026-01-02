@@ -8,18 +8,12 @@ This GitHub repository contains the code used to extract steering vectors, and a
 The repository is structured as such: 
 | Folder/File               | Description |
 |---------------------------|-------------|
-| `vector_storage/`         | Contains the extracted vectors stored for later use, as well as the "stimuli" generated to extract them|
-| `plots/`                  | REMOVE?| 
-| `results/`                | REMOVE?|
-| `src/`                    | Python code related to the project. |
+| `data/`                   | Contains the extracted vectors stored for later use|
 
-For a greater overview of the Python code, see the [src/README.md](src/README.md). REMOVE
-
+The notebook "results for the paper" contains the code used to extract the steering vector, and for generating baseline, constant steered and token probability based steering responses to the selected questions. 
 
 ## 💻 Technical Requirements 
 Code was run via Ubuntu 24.04.2, Python 3.12.3 (UCloud, Coder Python 1.103.1), using a 64 cpu machine, 2 x Intel(R) Xeon(R) Gold 6130 (64) @ 3.70 GHz
-
-Python's `venv` need to be installed for the code to run as intended.
 
 ## 🛠️ Setup
 Prior to running the code, run the command below to create a virtual environment (`venv`) and install necessary packages within it: 
@@ -28,18 +22,9 @@ Prior to running the code, run the command below to create a virtual environment
 bash setup.sh
 ```
 
-##  🚀 Usage  -CHANGE TO BE FOR NOTEBOOKS
-To run any script in the `src` folder, you can type specify the script's path in the terminal (with the `.venv` active):
-```bash
-# activate env
-source .venv/bin/activate
+##  🚀 Usage 
+The notebooks can be run in the virtual environment installed following the instructions above. Vectors can either be generated or imported from the data folder. 
 
-# run script
-python src/get_paths.py
-
-# quit env 
-deactivate
-```
 
 ## 🌟 Acknowledgements - REMOVE
 If you want to thank a data provider or a package that you heavily relied on ;)
